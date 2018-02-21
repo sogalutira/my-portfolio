@@ -21526,10 +21526,10 @@ class Routes extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 			__WEBPACK_IMPORTED_MODULE_4_react_router__["c" /* Router */],
 			{ history: __WEBPACK_IMPORTED_MODULE_4_react_router__["d" /* browserHistory */] },
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_router__["b" /* Route */], {
-				exact: true, path: '/my-portfolio/',
+				exact: true, path: '/',
 				component: __WEBPACK_IMPORTED_MODULE_3__containers_MenuLayout__["a" /* default */] }),
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_router__["b" /* Route */], {
-				path: '/my-portfolio/portfolio',
+				path: '/portfolio',
 				component: __WEBPACK_IMPORTED_MODULE_2__containers_Portfolio__["a" /* default */] })
 		);
 	}
@@ -25343,7 +25343,7 @@ class FooterP extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 				null,
 				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 					__WEBPACK_IMPORTED_MODULE_1_react_router__["a" /* Link */],
-					{ to: '/my-portfolio/' },
+					{ to: '/' },
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fas fa-home' }),
 					'Home'
 				)
@@ -25535,7 +25535,7 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   { onClick: this.isHome },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     __WEBPACK_IMPORTED_MODULE_5_react_router__["a" /* Link */],
-                    { to: '/my-portfolio/' },
+                    { to: '/' },
                     'Home'
                   )
                 )
@@ -25557,7 +25557,7 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   null,
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     __WEBPACK_IMPORTED_MODULE_5_react_router__["a" /* Link */],
-                    { to: '/my-portfolio/portfolio' },
+                    { to: '/portfolio' },
                     'Portfolio'
                   )
                 )
