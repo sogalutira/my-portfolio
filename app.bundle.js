@@ -21519,17 +21519,18 @@ module.exports = camelize;
 
 
 
+let PUBLIC_URL = "/my-portfolio";
 
 class Routes extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 	render() {
 		return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 			__WEBPACK_IMPORTED_MODULE_4_react_router__["c" /* Router */],
-			{ history: __WEBPACK_IMPORTED_MODULE_4_react_router__["d" /* browserHistory */], basename: '`${process.env.PUBLIC_URL}/' },
+			{ history: __WEBPACK_IMPORTED_MODULE_4_react_router__["d" /* browserHistory */] },
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_router__["b" /* Route */], {
-				exact: true, path: '/',
+				path: '`${process.env.PUBLIC_URL}/',
 				component: __WEBPACK_IMPORTED_MODULE_3__containers_MenuLayout__["a" /* default */] }),
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_router__["b" /* Route */], {
-				path: '/portfolio',
+				path: '`${process.env.PUBLIC_URL}/portfolio',
 				component: __WEBPACK_IMPORTED_MODULE_2__containers_Portfolio__["a" /* default */] })
 		);
 	}
