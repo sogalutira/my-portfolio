@@ -21524,7 +21524,7 @@ class Routes extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 	render() {
 		return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 			__WEBPACK_IMPORTED_MODULE_4_react_router__["c" /* Router */],
-			{ history: __WEBPACK_IMPORTED_MODULE_4_react_router__["d" /* browserHistory */] },
+			{ history: __WEBPACK_IMPORTED_MODULE_4_react_router__["d" /* browserHistory */], basename: '`${process.env.PUBLIC_URL}/' },
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_router__["b" /* Route */], {
 				exact: true, path: '/',
 				component: __WEBPACK_IMPORTED_MODULE_3__containers_MenuLayout__["a" /* default */] }),
