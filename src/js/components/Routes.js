@@ -7,7 +7,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 class Routes extends Component {
 	render(){
 		return (
-			<Router history={browserHistory}>
+			<Router history={browserHistory} basname="`${process.env.PUBLIC_URL}/">
 				<Route 
 					exact path="/" 
 					component={MenuLayout}>
