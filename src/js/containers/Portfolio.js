@@ -18,7 +18,7 @@ class Portfolio extends Component {
               <div className="proj-sum">
                 <div className="proj-sum-header">
                   <div className="proj-sum-img-div">
-                    <img className="proj-sum-img" src="/my-portfolio/src/assets/activiterscreen.png"></img>
+                    <img className="proj-sum-img" src="https://github.com/sogalutira/my-portfolio/blob/master/src/assets/activiterscreen.png?raw=true"></img>
                   </div>
                   <div className="proj-sum-info">
                     <h3>Activiter</h3>
@@ -62,7 +62,7 @@ class Portfolio extends Component {
               <div className="proj-sum">
                 <div className="proj-sum-header">
                   <div className="proj-sum-img-div">
-                    <a href="http://www.stylesforhue.com/"><img className="proj-sum-img" src="/my-portfolio/src/assets/stylesforhue.png"></img></a>
+                    <a href="http://www.stylesforhue.com/"><img className="proj-sum-img" src="https://github.com/sogalutira/my-portfolio/blob/master/src/assets/stylesforhue.png?raw=true"></img></a>
                   </div>
                   <div className="proj-sum-info">
                     <h3>Styles for Hue</h3>
@@ -98,7 +98,7 @@ class Portfolio extends Component {
               <div className="proj-sum">
                 <div className="proj-sum-header">
                   <div className="proj-sum-img-div">
-                    <a href="https://junior-devleague.github.io/sounds-of-the-sea/"><img className="proj-sum-img" src="/my-portfolio/src/assets/soundsea.png"></img></a>
+                    <a href="https://junior-devleague.github.io/sounds-of-the-sea/"><img className="proj-sum-img" src="https://github.com/sogalutira/my-portfolio/blob/master/src/assets/soundsea.png?raw=true"></img></a>
                   </div>
                   <div className="proj-sum-info">
                     <h3>Sounds of the Sea</h3>
@@ -126,7 +126,7 @@ class Portfolio extends Component {
               <div className="proj-sum">
                 <div className="proj-sum-header">
                   <div className="proj-sum-img-div">
-                    <a href="https://sogalutira.github.io/PixelPainter/"><img className="proj-sum-img" src="/my-portfolio/src/assets/pixelpainter.png"></img></a>
+                    <a href="https://sogalutira.github.io/PixelPainter/"><img className="proj-sum-img" src="https://github.com/sogalutira/my-portfolio/blob/master/src/assets/pixelpainter.png?raw=true"></img></a>
                   </div>
                   <div className="proj-sum-info">
                     <h3>Pixel Painter</h3>
@@ -152,7 +152,7 @@ class Portfolio extends Component {
               <div className="proj-sum">
                 <div className="proj-sum-header">
                   <div className="proj-sum-img-div">
-                    <a href="https://sogalutira.github.io/my-lit-keyboard/"><img className="proj-sum-img" src="/my-portfolio/src/assets/litkeyboard.png"></img></a>
+                    <a href="https://sogalutira.github.io/my-lit-keyboard/"><img className="proj-sum-img" src="https://github.com/sogalutira/my-portfolio/blob/master/src/assets/litkeyboard.png?raw=true"></img></a>
                   </div>
                   <div className="proj-sum-info">
                     <h3>My Lit Keyboard</h3>
