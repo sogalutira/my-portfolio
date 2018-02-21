@@ -11,7 +11,7 @@ import {
   withRouter,
   browserHistory
 } from 'react-router';
-let PUBLIC_URL = "/my-portfolio";
+let PUBLIC_URL = "/my-portfolio/";
 
 
 class Hero extends Component {
@@ -93,7 +93,7 @@ class Hero extends Component {
                   </div>
                 <div className="spacer"></div>
                 <div onClick={this.isHome}>
-                  <Link to="PUBLIC_URL/">Home</Link>
+                  <Link to="PUBLIC_URL">Home</Link>
                 </div>
               </div>
               <div className="icon-holder"
@@ -102,7 +102,7 @@ class Hero extends Component {
               >
                 <div id="port-plane" className={this.state.show}><i className="far fa-paper-plane"></i></div>
                 <div className="spacer"></div>
-                <div><Link to="PUBLIC_URL//portfolio">Portfolio</Link></div>
+                <div><Link to="PUBLIC_URL + portfolio">Portfolio</Link></div>
               </div>
               <div className="icon-holder"
                 onMouseEnter={this.handleVis}
