@@ -21519,7 +21519,7 @@ module.exports = camelize;
 
 
 
-let PUBLIC_URL = "/my-portfolio";
+let PUBLIC_URL = "/my-portfolio/";
 
 class Routes extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 	render() {
@@ -21527,10 +21527,10 @@ class Routes extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 			__WEBPACK_IMPORTED_MODULE_4_react_router__["c" /* Router */],
 			{ history: __WEBPACK_IMPORTED_MODULE_4_react_router__["d" /* browserHistory */] },
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_router__["b" /* Route */], {
-				path: 'PUBLIC_URL/',
+				path: 'PUBLIC_URL',
 				component: __WEBPACK_IMPORTED_MODULE_3__containers_MenuLayout__["a" /* default */] }),
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4_react_router__["b" /* Route */], {
-				path: 'PUBLIC_URL/portfolio',
+				path: 'PUBLIC_URL + portfolio',
 				component: __WEBPACK_IMPORTED_MODULE_2__containers_Portfolio__["a" /* default */] })
 		);
 	}
@@ -25333,7 +25333,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router__ = __webpack_require__(16);
 
 
-let PUBLIC_URL = "/my-portfolio";
+let PUBLIC_URL = "/my-portfolio/";
 
 class FooterP extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 	render() {
@@ -25345,7 +25345,7 @@ class FooterP extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 				null,
 				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 					__WEBPACK_IMPORTED_MODULE_1_react_router__["a" /* Link */],
-					{ to: 'PUBLIC_URL/' },
+					{ to: 'PUBLIC_URL' },
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'fas fa-home' }),
 					'Home'
 				)
@@ -25427,7 +25427,7 @@ class MenuLayout extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
 
 
-let PUBLIC_URL = "/my-portfolio";
+let PUBLIC_URL = "/my-portfolio/";
 
 class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
   constructor(props) {
@@ -25538,7 +25538,7 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   { onClick: this.isHome },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     __WEBPACK_IMPORTED_MODULE_5_react_router__["a" /* Link */],
-                    { to: 'PUBLIC_URL/' },
+                    { to: 'PUBLIC_URL' },
                     'Home'
                   )
                 )
@@ -25560,7 +25560,7 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   null,
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     __WEBPACK_IMPORTED_MODULE_5_react_router__["a" /* Link */],
-                    { to: 'PUBLIC_URL//portfolio' },
+                    { to: 'PUBLIC_URL + portfolio' },
                     'Portfolio'
                   )
                 )
