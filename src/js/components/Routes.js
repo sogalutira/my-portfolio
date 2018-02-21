@@ -10,11 +10,11 @@ class Routes extends Component {
 		return (
 			<Router history={browserHistory}>
 				<Route 
-					path="`${process.env.PUBLIC_URL}/" 
+					path="PUBLIC_URL/" 
 					component={MenuLayout}>
 				</Route>
 				<Route 
-					path="`${process.env.PUBLIC_URL}/portfolio" 
+					path="PUBLIC_URL/portfolio" 
 					component={Portfolio}>
 				</Route>
 			</Router>
