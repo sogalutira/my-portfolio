@@ -6,7 +6,7 @@ export default class FooterP extends Component {
 		return (
 			<div className="footerp">
         <li>
-        	<Link to="/my-portfolio/">
+        	<Link to="/">
         		<i className="fas fa-home"></i>
         		Home
         	</Link>

@@ -9,11 +9,11 @@ class Routes extends Component {
 		return (
 			<Router history={browserHistory}>
 				<Route 
-					exact path="/my-portfolio/" 
+					exact path="/" 
 					component={MenuLayout}>
 				</Route>
 				<Route 
-					path="/my-portfolio/portfolio" 
+					path="/portfolio" 
 					component={Portfolio}>
 				</Route>
 			</Router>
