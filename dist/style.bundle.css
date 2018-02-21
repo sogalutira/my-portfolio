@@ -28,6 +28,10 @@ a:hover {
 	cursor: pointer;
 }
 
+.title-selection a:link {
+	color: white;
+	text-decoration: none;
+}
 .title-selection a:visited {
 	color: white;
 }
