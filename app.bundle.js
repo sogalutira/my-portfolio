@@ -2724,7 +2724,7 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
                   { className: 'proj-sum-img-div' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: '/my-portfolio/src/assets/activiterscreen.png' })
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/activiterscreen.png?raw=true' })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
@@ -2883,7 +2883,7 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
                     { href: 'http://www.stylesforhue.com/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: '/my-portfolio/src/assets/stylesforhue.png' })
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/stylesforhue.png?raw=true' })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -3004,7 +3004,7 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
                     { href: 'https://junior-devleague.github.io/sounds-of-the-sea/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: '/my-portfolio/src/assets/soundsea.png' })
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/soundsea.png?raw=true' })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -3097,7 +3097,7 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
                     { href: 'https://sogalutira.github.io/PixelPainter/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: '/my-portfolio/src/assets/pixelpainter.png' })
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/pixelpainter.png?raw=true' })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -3180,7 +3180,7 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
                     { href: 'https://sogalutira.github.io/my-lit-keyboard/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: '/my-portfolio/src/assets/litkeyboard.png' })
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/litkeyboard.png?raw=true' })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
