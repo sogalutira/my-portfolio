@@ -1,10 +1,19 @@
-import express from 'express';
-import bodyParser from 'body-parser';
+'use strict'
+const express = require('express');
+const bodyParser = require('body-parser');
+const path = require('path');
 
 const app = express();
+const webpack = require('webpack');
+const config = require('./webpack.config');
+const compiler = webpack(config);
 
-app.get('/', (req, res) => {
-	response.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+app.use(require('webpack-dev-middleware')(compiler, {
+  publicPath: config.output.publicPath
+}));
+
+app.get('*', (req, res) => {
+	res.sendFile(path.resolve(__dirname, 'dist', 'index.html'))
 });
 
 const server = app.listen(8080, function(){

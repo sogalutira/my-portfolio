@@ -99,7 +99,7 @@ p {
 #hero-img {
 	display: flex;
   flex-flow: wrap;   
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(b17ffcd6046d31f58981a81311c5c26f.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/b17ffcd6046d31f58981a81311c5c26f.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -190,7 +190,7 @@ hr {
 .portfolio-container {
   background-color: #3d424c;
 	color: white;   
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(b17ffcd6046d31f58981a81311c5c26f.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/b17ffcd6046d31f58981a81311c5c26f.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
