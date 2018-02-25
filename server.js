@@ -12,10 +12,10 @@ app.use(require('webpack-dev-middleware')(compiler, {
   publicPath: config.output.publicPath
 }));
 
-app.use('/', express.static(path.join(__dirname, 'dist', 'public')));
+app.use('/', express.static(path.join(__dirname, 'index.html')));
 
 app.get('*', (req, res) => {
-	res.sendFile(path.join(__dirname, 'dist', 'index.html'))
+	res.sendFile(path.join(__dirname, 'index.html'))
 });
 
 const server = app.listen(8080, function(){
