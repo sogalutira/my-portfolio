@@ -2,4 +2,9 @@
 
 ### [Visit My Portfolio](http://sgalutira.com/)
 ---
-Aloha! Had some fun updating my online portfolio. Inspired by my childhood videogames.
+Aloha! This my online portfolio inspired by my childhood videogames.
+
+#### Technologies
+* React
+* React Router
+* Webpack
