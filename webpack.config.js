@@ -18,7 +18,8 @@ module.exports = {
   entry: path.join(__dirname, 'src/js/app.js'),
   output: {
     path: paths.DIST,
-    filename: 'app.bundle.js'
+    filename: 'app.bundle.js',
+    publicPath: '/'
   },
   devServer: {
     historyApiFallback: true,
