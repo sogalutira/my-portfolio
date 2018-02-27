@@ -1962,7 +1962,7 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'h4',
-                    null,
+                    { id: 'exp' },
                     'EXP: 8 months'
                   ),
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -1971,11 +1971,6 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'div',
                       { className: 'proj-holder' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'JavaScript'
-                      ),
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'li',
                         null,
@@ -1995,16 +1990,16 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                         'li',
                         null,
                         'Sails'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'li',
+                        null,
+                        'Waterline'
                       )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'div',
                       { className: 'proj-holder', id: 'column2' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Waterline'
-                      ),
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'li',
                         null,
@@ -2023,7 +2018,12 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'li',
                         null,
-                        'Data Visualization (D3)'
+                        'Data Visualization'
+                      ),
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'li',
+                        null,
+                        'Tableau'
                       )
                     )
                   )
