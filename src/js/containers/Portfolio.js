@@ -22,21 +22,21 @@ class Portfolio extends Component {
                   <div className="proj-sum-info">
                     <h3>Activiter</h3>
                     <h4>Full Stack Developer</h4>
-                    <h4>EXP: 8 months</h4>
+                    <h4 id="exp">EXP: 8 months</h4>
                     <div className="proj-sum-list">
                       <div className="proj-holder">
-                        <li>JavaScript</li>
                         <li>Vuejs</li>
                         <li>Nuxt</li>
                         <li>Vuetify</li>
                         <li>Sails</li>
+                        <li>Waterline</li>
                       </div>
                       <div className="proj-holder" id="column2">
-                        <li>Waterline</li>
                         <li>PostgreSQL</li>
                         <li>Grunt</li>
                         <li>Less</li>
-                        <li>Data Visualization (D3)</li>
+                        <li>Data Visualization</li>
+                        <li>Tableau</li>
                       </div>
                     </div>
                   </div>
