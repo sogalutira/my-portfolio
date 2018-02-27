@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 import ReactDOM from 'react-dom';
 import FooterP from '../components/FooterP';
 

@@ -8,9 +8,8 @@ import {
   Router,
   Route,
   Link,
-  withRouter,
   browserHistory
-} from 'react-router';
+} from 'react-router-dom';
 
 
 class Hero extends Component {
@@ -92,7 +91,7 @@ class Hero extends Component {
                   </div>
                 <div className="spacer"></div>
                 <div onClick={this.isHome}>
-                  <Link to="/">Home</Link>
+                  <Link to="/" replace>Home</Link>
                 </div>
               </div>
               <div className="icon-holder"
@@ -120,4 +119,4 @@ class Hero extends Component {
 	}
 }
 
-export default withRouter(Hero);
+export default Hero;

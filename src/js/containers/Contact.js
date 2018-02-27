@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { withRouter, Link } from 'react-router';
 
 class Contact extends Component {
 	render() {
@@ -49,4 +48,4 @@ class Contact extends Component {
 	}
 }
 
-export default withRouter(Contact);
+export default Contact;
