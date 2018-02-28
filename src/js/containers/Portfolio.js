@@ -5,7 +5,31 @@ import FooterP from '../components/FooterP';
 let detailView;
 
 class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dateIncrement: ''
+    };
+
+    this.getDate = this.getDate.bind(this);
+  }
+
+  getDate() {
+    let initialDate = new Date(2018, 1, 26); // Feb 27, 2018
+    let now = Date.now();
+    let difference = now - initialDate;
+    let millisecondsPerDay = 24 * 60 * 60 * 1000;
+    let monthCount = millisecondsPerDay * 30;
+    let daysSince = Math.floor(difference / monthCount);
+    this.setState({dateIncrement: daysSince});
+  }
+
+  componentDidMount () {
+    this.getDate();
+  }
+
 	render() {
+    console.log('date', this.state.dateIncrement);
     return (
       <div className="portfolio-container">
         <div className="port-screens">
@@ -22,7 +46,7 @@ class Portfolio extends Component {
                   <div className="proj-sum-info">
                     <h3>Activiter</h3>
                     <h4>Full Stack Developer</h4>
-                    <h4 id="exp">EXP: 8 months</h4>
+                    <h4 id="exp">EXP: {8 + this.state.dateIncrement}+ months </h4>
                     <div className="proj-sum-list">
                       <div className="proj-holder">
                         <li>Vuejs</li>
