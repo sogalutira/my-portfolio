@@ -362,11 +362,11 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(52)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(57)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(53)();
+  module.exports = __webpack_require__(58)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
@@ -1071,31 +1071,31 @@ module.exports = ReactPropTypesSecret;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(56);
 /* unused harmony reexport BrowserRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(60);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(33);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(62);
 /* unused harmony reexport MemoryRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(65);
 /* unused harmony reexport NavLink */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(68);
 /* unused harmony reexport Prompt */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(70);
 /* unused harmony reexport Redirect */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(34);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(19);
 /* unused harmony reexport Router */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(76);
 /* unused harmony reexport StaticRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(78);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(80);
 /* unused harmony reexport matchPath */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(81);
 /* unused harmony reexport withRouter */
 
 
@@ -1434,7 +1434,7 @@ Router.childContextTypes = {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_path_to_regexp___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_path_to_regexp__);
 
 
@@ -1906,12 +1906,20 @@ module.exports = focusNode;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_FooterP__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_activit__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_styles4hue__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_soundsea__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_pixelpaint__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_litkeyboard__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_FooterP__ = __webpack_require__(55);
 
 
 
 
-let detailView;
+
+
+
+
 
 class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
   render() {
@@ -1936,546 +1944,15 @@ class Portfolio extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             { className: 'tile-holder' },
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'proj-sum' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-sum-header' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-img-div' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/activiterscreen.png?raw=true' })
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-info' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h3',
-                    null,
-                    'Activiter'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h4',
-                    null,
-                    'Full Stack Developer'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h4',
-                    { id: 'exp' },
-                    'EXP: 8 months'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'proj-sum-list' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'proj-holder' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Vuejs'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Nuxt'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Vuetify'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Sails'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Waterline'
-                      )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'proj-holder', id: 'column2' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'PostgreSQL'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Grunt'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Less'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Data Visualization'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Tableau'
-                      )
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-list' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-holder' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'JavaScript'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Vuejs'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Nuxt'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Vuetify'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Sails'
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-holder', id: 'column2' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Waterline'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'PostgreSQL'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Grunt'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Less'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Data Visualization (D3)'
-                  )
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'proj-sum' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-sum-header' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-img-div' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'http://www.stylesforhue.com/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/stylesforhue.png?raw=true' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-info' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h3',
-                    null,
-                    'Styles for Hue'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'http://www.stylesforhue.com/' },
-                    'www.stylesforhue.com'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    null,
-                    'Quick and easy prototyping for projects. Allows exporting of html and styles.'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'proj-sum-list' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'proj-holder' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'JavaScript'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'React'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Redux'
-                      )
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'proj-holder', id: 'column2' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Express'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'MongoDB'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Sass'
-                      )
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-list' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-holder' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'JavaScript'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'React'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Redux'
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-holder', id: 'column2' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Express'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'MongoDB'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Sass'
-                  )
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'proj-sum' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-sum-header' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-img-div' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'https://junior-devleague.github.io/sounds-of-the-sea/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/soundsea.png?raw=true' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-info' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h3',
-                    null,
-                    'Sounds of the Sea'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'https://junior-devleague.github.io/sounds-of-the-sea/' },
-                    'github.io/sounds-of-the-sea'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    null,
-                    'Attack the nets using spacebar when the cursor reaches the peak of the wave.'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'proj-sum-list' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'proj-holder' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Global Game Jam 2017'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Phaser.io'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Game Logic'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'Controls Programming'
-                      )
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-list' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-holder' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Global Game Jam 2017'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Phaser.io'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Game Logic'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'Controls Programming'
-                  )
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'proj-sum' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-sum-header' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-img-div' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'https://sogalutira.github.io/PixelPainter/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/pixelpainter.png?raw=true' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-info' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h3',
-                    null,
-                    'Pixel Painter'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'https://sogalutira.github.io/PixelPainter/' },
-                    'github.io/PixelPainter'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    null,
-                    'Draw 8 bit art.'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'proj-sum-list' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'proj-holder' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'JavaScript'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'HTML'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'CSS'
-                      )
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-list' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-holder' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'JavaScript'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'HTML'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'CSS'
-                  )
-                )
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'div',
-              { className: 'proj-sum' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-sum-header' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-img-div' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'https://sogalutira.github.io/my-lit-keyboard/' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/litkeyboard.png?raw=true' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-sum-info' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'h3',
-                    null,
-                    'My Lit Keyboard'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    { href: 'https://sogalutira.github.io/my-lit-keyboard/' },
-                    'github.io/my-lit-keyboard'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    null,
-                    'A virtual mechanical keyboard for everyone to enjoy while they type notes on a virtual note pad.'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'div',
-                    { className: 'proj-sum-list' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'div',
-                      { className: 'proj-holder' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'JavaScript'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'HTML'
-                      ),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'li',
-                        null,
-                        'CSS'
-                      )
-                    )
-                  )
-                )
-              ),
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'div',
-                { className: 'proj-list' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'div',
-                  { className: 'proj-holder' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'JavaScript'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'HTML'
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    'CSS'
-                  )
-                )
-              )
-            )
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_activit__["a" /* default */], null),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_styles4hue__["a" /* default */], null),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_soundsea__["a" /* default */], null),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_pixelpaint__["a" /* default */], null),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_litkeyboard__["a" /* default */], null)
           )
         )
       ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_FooterP__["a" /* default */], null)
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_7__components_FooterP__["a" /* default */], null)
     );
   }
 }
@@ -3033,7 +2510,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Routes__ = __webpack_require__(49);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_style_css__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_style_css__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__css_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__css_style_css__);
 
 
@@ -20296,7 +19773,7 @@ module.exports = camelize;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__containers_Portfolio__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__containers_MenuLayout__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__containers_MenuLayout__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_router_dom__ = __webpack_require__(16);
 
 
@@ -20324,6 +19801,647 @@ class Routes extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
 /***/ }),
 /* 50 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+class Activit extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      dateIncrement: ''
+    };
+
+    this.getDate = this.getDate.bind(this);
+  }
+
+  getDate() {
+    let initialDate = new Date(2018, 1, 26); // Feb 27, 2018
+    let now = Date.now();
+    let difference = now - initialDate;
+    let millisecondsPerDay = 24 * 60 * 60 * 1000;
+    let monthCount = millisecondsPerDay * 30;
+    let daysSince = Math.floor(difference / monthCount);
+    this.setState({ dateIncrement: daysSince });
+  }
+
+  componentDidMount() {
+    this.getDate();
+  }
+
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      'div',
+      { className: 'proj-sum' },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'proj-sum-header' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'proj-sum-img-div' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'proj-sum-img', src: 'https://github.com/sogalutira/my-portfolio/blob/master/src/assets/activiterscreen.png?raw=true' })
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'proj-sum-info' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h3',
+            null,
+            'Activiter'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h4',
+            null,
+            'Full Stack Developer'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h4',
+            { id: 'exp' },
+            'EXP: ',
+            8 + this.state.dateIncrement,
+            '+ months '
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'div',
+            { className: 'proj-sum-list' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'proj-holder' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Vuejs'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Nuxt'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Vuetify'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Sails'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Waterline'
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'div',
+              { className: 'proj-holder', id: 'column2' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'PostgreSQL'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Grunt'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Less'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Data Visualization'
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                null,
+                'Tableau'
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'proj-list' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'proj-holder' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'JavaScript'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Vuejs'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Nuxt'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Vuetify'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Sails'
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'proj-holder', id: 'column2' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Waterline'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'PostgreSQL'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Grunt'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Less'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            'Data Visualization (D3)'
+          )
+        )
+      )
+    );
+  }
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (Activit);
+
+/***/ }),
+/* 51 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+class Styles4Hue extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      { className: "proj-sum" },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-sum-header" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-img-div" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "http://www.stylesforhue.com/" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "proj-sum-img", src: "https://github.com/sogalutira/my-portfolio/blob/master/src/assets/stylesforhue.png?raw=true" })
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-info" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "h3",
+            null,
+            "Styles for Hue"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "http://www.stylesforhue.com/" },
+            "www.stylesforhue.com"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "span",
+            null,
+            "Quick and easy prototyping for projects. Allows exporting of html and styles."
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "proj-sum-list" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "proj-holder" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "JavaScript"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "React"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "Redux"
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "proj-holder", id: "column2" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "Express"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "MongoDB"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "Sass"
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-list" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-holder" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "JavaScript"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "React"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "Redux"
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-holder", id: "column2" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "Express"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "MongoDB"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "Sass"
+          )
+        )
+      )
+    );
+  }
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (Styles4Hue);
+
+/***/ }),
+/* 52 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+class SoundSea extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      { className: "proj-sum" },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-sum-header" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-img-div" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://junior-devleague.github.io/sounds-of-the-sea/" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "proj-sum-img", src: "https://github.com/sogalutira/my-portfolio/blob/master/src/assets/soundsea.png?raw=true" })
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-info" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "h3",
+            null,
+            "Sounds of the Sea"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://junior-devleague.github.io/sounds-of-the-sea/" },
+            "github.io/sounds-of-the-sea"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "span",
+            null,
+            "Attack the nets using spacebar when the cursor reaches the peak of the wave."
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "proj-sum-list" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "proj-holder" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "Global Game Jam 2017"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "Phaser.io"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "Game Logic"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "Controls Programming"
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-list" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-holder" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "Global Game Jam 2017"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "Phaser.io"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "Game Logic"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "Controls Programming"
+          )
+        )
+      )
+    );
+  }
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (SoundSea);
+
+/***/ }),
+/* 53 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+class PixelPaint extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      { className: "proj-sum" },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-sum-header" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-img-div" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://sogalutira.github.io/PixelPainter/" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "proj-sum-img", src: "https://github.com/sogalutira/my-portfolio/blob/master/src/assets/pixelpainter.png?raw=true" })
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-info" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "h3",
+            null,
+            "Pixel Painter"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://sogalutira.github.io/PixelPainter/" },
+            "github.io/PixelPainter"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "span",
+            null,
+            "Draw 8 bit art."
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "proj-sum-list" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "proj-holder" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "JavaScript"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "HTML"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "CSS"
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-list" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-holder" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "JavaScript"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "HTML"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "CSS"
+          )
+        )
+      )
+    );
+  }
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (PixelPaint);
+
+/***/ }),
+/* 54 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+class LitKeyboard extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
+  render() {
+    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "div",
+      { className: "proj-sum" },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-sum-header" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-img-div" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://sogalutira.github.io/my-lit-keyboard/" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "proj-sum-img", src: "https://github.com/sogalutira/my-portfolio/blob/master/src/assets/litkeyboard.png?raw=true" })
+          )
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-sum-info" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "h3",
+            null,
+            "My Lit Keyboard"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "a",
+            { href: "https://sogalutira.github.io/my-lit-keyboard/" },
+            "github.io/my-lit-keyboard"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("br", null),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "span",
+            null,
+            "A virtual mechanical keyboard for everyone to enjoy while they type notes on a virtual note pad."
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "div",
+            { className: "proj-sum-list" },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              "div",
+              { className: "proj-holder" },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "JavaScript"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "HTML"
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                "li",
+                null,
+                "CSS"
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
+        { className: "proj-list" },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "div",
+          { className: "proj-holder" },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "JavaScript"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "HTML"
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            "li",
+            null,
+            "CSS"
+          )
+        )
+      )
+    );
+  }
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (LitKeyboard);
+
+/***/ }),
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20381,7 +20499,7 @@ class FooterP extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 
 
 /***/ }),
-/* 51 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20391,7 +20509,7 @@ class FooterP extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createBrowserHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(19);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -20448,7 +20566,7 @@ BrowserRouter.propTypes = {
 /* unused harmony default export */ var _unused_webpack_default_export = (BrowserRouter);
 
 /***/ }),
-/* 52 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20998,7 +21116,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 53 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21063,7 +21181,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 54 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21376,7 +21494,7 @@ var createBrowserHistory = function createBrowserHistory() {
 exports.default = createBrowserHistory;
 
 /***/ }),
-/* 55 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21386,7 +21504,7 @@ exports.default = createBrowserHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createHashHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(19);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -21442,7 +21560,7 @@ HashRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (HashRouter);
 
 /***/ }),
-/* 56 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21772,18 +21890,18 @@ var createHashHistory = function createHashHistory() {
 exports.default = createHashHistory;
 
 /***/ }),
-/* 57 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__ = __webpack_require__(63);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_MemoryRouter__["a" /* default */]);
 
 /***/ }),
-/* 58 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21793,7 +21911,7 @@ exports.default = createHashHistory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_history_createMemoryHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Router__ = __webpack_require__(20);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -21850,7 +21968,7 @@ MemoryRouter.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (MemoryRouter);
 
 /***/ }),
-/* 59 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22026,7 +22144,7 @@ var createMemoryHistory = function createMemoryHistory() {
 exports.default = createMemoryHistory;
 
 /***/ }),
-/* 60 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22107,10 +22225,10 @@ NavLink.defaultProps = {
 /* unused harmony default export */ var _unused_webpack_default_export = (NavLink);
 
 /***/ }),
-/* 61 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isarray = __webpack_require__(62)
+var isarray = __webpack_require__(67)
 
 /**
  * Expose `pathToRegexp`.
@@ -22539,7 +22657,7 @@ function pathToRegexp (path, keys, options) {
 
 
 /***/ }),
-/* 62 */
+/* 67 */
 /***/ (function(module, exports) {
 
 module.exports = Array.isArray || function (arr) {
@@ -22548,18 +22666,18 @@ module.exports = Array.isArray || function (arr) {
 
 
 /***/ }),
-/* 63 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__ = __webpack_require__(69);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Prompt__["a" /* default */]);
 
 /***/ }),
-/* 64 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22650,18 +22768,18 @@ Prompt.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Prompt);
 
 /***/ }),
-/* 65 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__ = __webpack_require__(71);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Redirect__["a" /* default */]);
 
 /***/ }),
-/* 66 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22673,7 +22791,7 @@ Prompt.contextTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_warning__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_invariant___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_invariant__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_history__ = __webpack_require__(72);
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -22769,15 +22887,15 @@ Redirect.contextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Redirect);
 
 /***/ }),
-/* 67 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__createBrowserHistory__ = __webpack_require__(73);
 /* unused harmony reexport createBrowserHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createHashHistory__ = __webpack_require__(74);
 /* unused harmony reexport createHashHistory */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__createMemoryHistory__ = __webpack_require__(75);
 /* unused harmony reexport createMemoryHistory */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__LocationUtils__ = __webpack_require__(13);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_3__LocationUtils__["a"]; });
@@ -22796,7 +22914,7 @@ Redirect.contextTypes = {
 
 
 /***/ }),
-/* 68 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23100,7 +23218,7 @@ var createBrowserHistory = function createBrowserHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createBrowserHistory);
 
 /***/ }),
-/* 69 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23421,7 +23539,7 @@ var createHashHistory = function createHashHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createHashHistory);
 
 /***/ }),
-/* 70 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23589,18 +23707,18 @@ var createMemoryHistory = function createMemoryHistory() {
 /* unused harmony default export */ var _unused_webpack_default_export = (createMemoryHistory);
 
 /***/ }),
-/* 71 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__ = __webpack_require__(77);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_StaticRouter__["a" /* default */]);
 
 /***/ }),
-/* 72 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23783,18 +23901,18 @@ StaticRouter.childContextTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (StaticRouter);
 
 /***/ }),
-/* 73 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__ = __webpack_require__(79);
 // Written in this round about way for babel-transform-imports
 
 
 /* harmony default export */ __webpack_exports__["a"] = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_Switch__["a" /* default */]);
 
 /***/ }),
-/* 74 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23888,7 +24006,7 @@ Switch.propTypes = {
 /* harmony default export */ __webpack_exports__["a"] = (Switch);
 
 /***/ }),
-/* 75 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23899,18 +24017,18 @@ Switch.propTypes = {
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_matchPath__["a" /* default */]);
 
 /***/ }),
-/* 76 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__ = __webpack_require__(82);
 // Written in this round about way for babel-transform-imports
 
 
 /* unused harmony default export */ var _unused_webpack_default_export = (__WEBPACK_IMPORTED_MODULE_0_react_router_es_withRouter__["a" /* default */]);
 
 /***/ }),
-/* 77 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -23918,7 +24036,7 @@ Switch.propTypes = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_hoist_non_react_statics__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Route__ = __webpack_require__(35);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -23955,7 +24073,7 @@ var withRouter = function withRouter(Component) {
 /* harmony default export */ __webpack_exports__["a"] = (withRouter);
 
 /***/ }),
-/* 78 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -24033,13 +24151,13 @@ var withRouter = function withRouter(Component) {
 
 
 /***/ }),
-/* 79 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Hero__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Hero__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Footer__ = __webpack_require__(37);
 
 
@@ -24059,16 +24177,16 @@ class MenuLayout extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 /* harmony default export */ __webpack_exports__["a"] = (MenuLayout);
 
 /***/ }),
-/* 80 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__containers_About__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__containers_About__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Footer__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__containers_Portfolio__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__containers_Contact__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__containers_Contact__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_router_dom__ = __webpack_require__(16);
 
 // import NavBar from './NavBar';
@@ -24197,7 +24315,7 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 /* harmony default export */ __webpack_exports__["a"] = (Hero);
 
 /***/ }),
-/* 81 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24233,7 +24351,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 /* harmony default export */ __webpack_exports__["a"] = (About);
 
 /***/ }),
-/* 82 */
+/* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24329,7 +24447,7 @@ class Contact extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
 /* harmony default export */ __webpack_exports__["a"] = (Contact);
 
 /***/ }),
-/* 83 */
+/* 88 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
