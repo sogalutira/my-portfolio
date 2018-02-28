@@ -24082,46 +24082,11 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
   constructor(props) {
     super(props);
     this.state = {
-      isHovered: false,
-      show: "notActive",
-      isVis: false,
       isContactVisible: false
     };
-    this.handleHover = this.handleHover.bind(this);
-    this.toggleHoverState = this.toggleHoverState.bind(this);
-    this.addClassName = this.addClassName.bind(this);
-    this.removeClassName = this.removeClassName.bind(this);
-    this.handleVis = this.handleVis.bind(this);
+
     this.handleContact = this.handleContact.bind(this);
     this.isHome = this.isHome.bind(this);
-  }
-
-  addClassName() {
-    this.setState({ show: "isActive" });
-  }
-
-  removeClassName() {
-    this.setState({ show: "notActive" });
-  }
-
-  handleHover() {
-    this.setState(this.toggleHoverState);
-  }
-
-  toggleHoverState(state) {
-    return {
-      isHovered: !this.state.isHovered
-    };
-  }
-
-  handleVis() {
-    this.setState(this.toggleVisState);
-  }
-
-  toggleVisState(state) {
-    return {
-      isVis: !this.state.isVis
-    };
   }
 
   isHome() {
@@ -24133,8 +24098,6 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
   }
 
   render() {
-    const willChange = this.state.isHovered ? 'isActive' : 'notActive';
-    const willShow = this.state.isVis ? 'isActive' : 'notActive';
     const blur = this.state.isContactVisible ? 'blur-eff' : '';
     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'div',
@@ -24172,13 +24135,10 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
               { className: 'title-selection' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'icon-holder',
-                  onMouseEnter: this.handleHover,
-                  onMouseLeave: this.handleHover
-                },
+                { className: 'icon-holder' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
-                  { id: 'home-plane', className: willChange },
+                  { id: 'home-plane', className: 'show-on-hover' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'far fa-paper-plane' })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'spacer' }),
@@ -24194,13 +24154,10 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'icon-holder',
-                  onMouseEnter: this.addClassName,
-                  onMouseLeave: this.removeClassName
-                },
+                { className: 'icon-holder' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
-                  { id: 'port-plane', className: this.state.show },
+                  { id: 'port-plane', className: 'show-on-hover' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'far fa-paper-plane' })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'spacer' }),
@@ -24216,13 +24173,10 @@ class Hero extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
-                { className: 'icon-holder',
-                  onMouseEnter: this.handleVis,
-                  onMouseLeave: this.handleVis
-                },
+                { className: 'icon-holder' },
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'div',
-                  { id: 'contact-plane', className: willShow },
+                  { id: 'contact-plane', className: 'show-on-hover' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('i', { className: 'far fa-paper-plane' })
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'spacer' }),
