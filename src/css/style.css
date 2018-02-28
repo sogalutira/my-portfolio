@@ -132,10 +132,15 @@ p {
 	font-family: 'VT323', monospace;
 }
 
-.fa-paper-plane {
+.icon-holder .show-on-hover {
 	transform: rotate(20deg);
 	margin-right: 10px;
 	color: #ffc107;
+	visibility: hidden;
+}
+
+.icon-holder:hover .show-on-hover, .icon-holder:active .show-on-hover {
+	visibility: visible;
 }
 
 #holder {
@@ -439,6 +444,9 @@ html {
 	.proj-sum-img {
 		width: 100%;
 	}
+	.proj-list {
+    background-color: #9a9a9a;
+	}
 
 }
 
@@ -513,6 +521,7 @@ html {
 	}
 	.proj-list {
 		width: 100%;
+    background-color: #9a9a9a;
 	}
 	.proj-holder {
 		margin-left: 25px;
@@ -528,15 +537,15 @@ html {
 
 @media only screen and (min-width: 705px) and (max-width: 1056px){
 	#about-txt {
-		width: 60%;
+		width: 80%;
 		margin-top: 30px;
 	}
 	.about-caption {
-		margin-bottom: 100px;
+		margin-bottom: 40px;
     height: 80px;
 	}
 	#isContactVisible {
-		top: 85px;
+		top: 20%;
 	}
 	.contact-header {
 		width: 230px;
@@ -618,7 +627,7 @@ html {
     height: 80px;
 	}
 	#isContactVisible {
-		top: 85px;
+		top: 28%;
 	}
 	.contact-header {
 		width: 230px;
@@ -688,7 +697,7 @@ html {
 	}
 }
 
-@media only screen and (min-device-width: 630px) and (orientation: landscape){
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (orientation: landscape){
 	#about-txt {
 		width: 80%;
 		margin-top: -15px;
@@ -697,8 +706,23 @@ html {
 		margin-bottom: 25px;
     height: 60px;
 	}
+		#isContactVisible {
+		top: 12%;
+	}
+	.contact-header {
+		width: 230px;
+	}
+	.contact-container {
+		width: 470px;
+	}
+	.contact-cont li {
+		font-size: 20px;
+	}
+	.header-spacer {
+		width: 240px;
+	}
+	#close {
+		top: -12px;
+	  left: 60px;
+	}
 }
-
-/*.can-touch #home-plane, .can-touch #port-plane, .can-touch #contact-plane {
-	visibility: hidden;
-}*/
