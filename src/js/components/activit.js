@@ -62,11 +62,11 @@ class Activit extends Component {
             <li>Sails</li>
           </div>
           <div className="proj-holder" id="column2">
-            <li>Waterline</li>
             <li>PostgreSQL</li>
             <li>Grunt</li>
             <li>Less</li>
-            <li>Data Visualization (D3)</li>
+            <li>Data Visualization</li>
+            <li>Tableau</li>
           </div>
         </div>
       </div>

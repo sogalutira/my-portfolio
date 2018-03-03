@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Activit from '../components/activit';
+import FFXIVCrafting from '../components/ffxivcrafting';
 import Styles4Hue from '../components/styles4hue';
 import SoundSea from '../components/soundsea';
 import PixelPaint from '../components/pixelpaint';
@@ -19,6 +20,7 @@ class Portfolio extends Component {
           <div className="port-holder">
             <div className="tile-holder">
               <Activit/>
+              <FFXIVCrafting/>
               <Styles4Hue/>
               <SoundSea/>
               <PixelPaint/>
