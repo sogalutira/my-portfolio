@@ -24,7 +24,7 @@
       function removeHoverCSSRule() {
         if ('createTouch' in document) {
           try {
-            var ignore = RegExp(':hover');
+            var ignore = /:hover/;
             for (var i = 0; i < document.styleSheets.length; i++) {
               var sheet = document.styleSheets[i];
               if (!sheet.cssRules) {
