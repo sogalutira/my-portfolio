@@ -1,8 +1,8 @@
 # Sheena's Online Portfolio
 
-### [Visit My Portfolio](http://sgalutira.com/)
----
 Aloha! This my online portfolio inspired by my childhood videogames.
+
+[www.sgalutira.com](http://sgalutira.com/)
 
 #### Technologies
 * React
