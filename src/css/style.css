@@ -22,22 +22,12 @@ a:visited {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #ffc107;
-	text-decoration: none;
-	cursor: pointer;
-}
-
 .title-selection a:link {
 	color: white;
 	text-decoration: none;
 }
 .title-selection a:visited {
 	color: white;
-}
-
-.title-selection a:hover {
-	color: #ffc107;
 }
 
 h1 {
@@ -132,17 +122,6 @@ p {
 	font-family: 'VT323', monospace;
 }
 
-.icon-holder .show-on-hover {
-	transform: rotate(20deg);
-	margin-right: 10px;
-	color: #ffc107;
-	visibility: hidden;
-}
-
-.icon-holder:hover .show-on-hover, .icon-holder:active .show-on-hover {
-	visibility: visible;
-}
-
 #holder {
 	display: flex;
   flex-flow: wrap;
@@ -152,18 +131,17 @@ p {
 	padding: 5px;
 }
 
-.isActive {
-	visibility: visible;
-}
-
-.notActive {
-	visibility: hidden;
-}
-
 .icon-holder {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 15px;
+}
+
+.icon-holder .show-on-hover {
+	transform: rotate(20deg);
+	margin-right: 10px;
+	color: #ffc107;
+	visibility: hidden;
 }
 
 #about-txt {
@@ -263,10 +241,6 @@ html {
 
 #contact {
 	cursor: pointer;
-}
-
-#contact:hover {
-	color: #ffc107;
 }
 
 .contact-container {
@@ -550,6 +524,27 @@ html {
 }
 
 @media only screen and (min-width: 705px) and (max-width: 1056px){
+	a:hover {
+		color: #ffc107;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.title-selection a:hover {
+		color: #ffc107;
+	}
+	.icon-holder .show-on-hover {
+		transform: rotate(20deg);
+		margin-right: 10px;
+		color: #ffc107;
+		visibility: hidden;
+	}
+
+	.icon-holder:hover .show-on-hover, .icon-holder:active .show-on-hover {
+		visibility: visible;
+	}
+	#contact:hover {
+		color: #ffc107;
+	}
 	#about-txt {
 		width: 80%;
 		margin-top: 30px;
@@ -632,6 +627,20 @@ html {
 }
 
 @media only screen and (min-width: 1056px) {
+	a:hover {
+		color: #ffc107;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.title-selection a:hover {
+		color: #ffc107;
+	}
+	.icon-holder:hover .show-on-hover, .icon-holder:active .show-on-hover {
+		visibility: visible;
+	}
+	#contact:hover {
+		color: #ffc107;
+	}
 	#about-txt {
 		width: 630px;
 		margin-top: 30px;
@@ -711,7 +720,13 @@ html {
 	}
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (orientation: landscape){
+@media only screen and (min-device-width : 375px) and (orientation: landscape){
+	.icon-holder .show-on-hover {
+		transform: rotate(20deg);
+		margin-right: 10px;
+		color: #ffc107;
+		visibility: hidden;
+	}
 	#about-txt {
 		width: 80%;
 		margin-top: -15px;
