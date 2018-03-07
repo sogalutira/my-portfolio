@@ -4,45 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta property="og:url" content="https://www.sgalutira.com" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:title" content="Sheena Galutira's Web Portfolio" />
-    <meta property="og:description" content="A full stack dev exploring the world of web development and design by continuing my adventure in learning new technologies" />
+    <meta property="og:description" content="A full stack dev exploring the world of web development and design." />
     <meta property="og:image" content="https://github.com/sogalutira/my-portfolio/blob/master/src/assets/heroshaka.JPG?raw=true" />
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Permanent+Marker|VT323" rel="stylesheet">
 	  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-    <script>
-      // disable :hover on touch devices
-      // based on https://gist.github.com/4404503 
-      // via https://twitter.com/javan/status/284873379062890496
-      // + https://twitter.com/pennig/status/285790598642946048
-      // re http://retrogamecrunch.com/tmp/hover
-      // NOTE: we should use .no-touch class on CSS
-      // instead of relying on this JS code
-      function removeHoverCSSRule() {
-        if ('createTouch' in document) {
-          try {
-            var ignore = /:hover/;
-            for (var i = 0; i < document.styleSheets.length; i++) {
-              var sheet = document.styleSheets[i];
-              if (!sheet.cssRules) {
-                continue;
-              }
-              for (var j = sheet.cssRules.length - 1; j >= 0; j--) {
-                var rule = sheet.cssRules[j];
-                if (rule.type === CSSRule.STYLE_RULE && ignore.test(rule.selectorText)) {
-                  sheet.deleteRule(j);
-                }
-              }
-            }
-          }
-          catch(e) {
-          }
-        }
-      }
-    </script>
     <title>Sheena G.</title>
   <link href="/style.bundle.css" rel="stylesheet"></head>
   <body>
