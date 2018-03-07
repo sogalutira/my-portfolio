@@ -20021,7 +20021,7 @@ class FFXIVCrafting extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
           { className: "proj-sum-img-div" },
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             "a",
-            { href: "https://sogalutira.github.io/my-lit-keyboard/" },
+            { href: "https://www.amazon.com/Final-Fantasy-Crafting-Recipes-List/dp/B07465GLLV/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1520104194&sr=1-1&keywords=final+fantasy" },
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "proj-sum-img", src: "https://github.com/sogalutira/my-portfolio/blob/master/src/assets/ffxivcrafting.png?raw=true" })
           )
         ),
