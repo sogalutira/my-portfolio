@@ -34,7 +34,7 @@ class Activit extends Component {
           <div className="proj-sum-info">
             <h3>Activiter</h3>
             <h4>Full Stack Developer</h4>
-            <h4 id="exp">EXP: {8 + this.state.dateIncrement}+ months </h4>
+            <h4 id="exp">EXP: 10 months </h4>
             <div className="proj-sum-list">
               <div className="proj-holder">
                 <li>Vuejs</li>
